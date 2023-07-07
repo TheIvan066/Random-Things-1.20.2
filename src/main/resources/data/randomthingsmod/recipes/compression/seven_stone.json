@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "randomthingsmod:six_stone"
+    }
+  },
+  "result": {
+    "item": "randomthingsmod:seven_stone"
+  }
+}

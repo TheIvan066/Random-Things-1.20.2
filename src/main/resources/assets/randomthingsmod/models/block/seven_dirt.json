@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "randomthingsmod:block/dirt_vii",
+    "particle": "minecraft:block/dirt"
+  }
+}

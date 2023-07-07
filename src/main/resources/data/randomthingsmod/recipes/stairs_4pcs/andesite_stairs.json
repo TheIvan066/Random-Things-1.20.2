@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SS",
+        "SS"    
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:andesite_stairs"
+        }
+    },
+    "result": {
+        "item": "minecraft:andesite_stairs",
+        "count": 3
+    },
+    "group": "stairs"
+}
+

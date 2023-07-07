@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:eight_andesite"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:seven_andesite",
+    "count": 9
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "randomthingsmod:block/test_block",
+    "top": "randomthingsmod:block/test_block",
+    "side": "randomthingsmod:block/test_block"
+  }
+}

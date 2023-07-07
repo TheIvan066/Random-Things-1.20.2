@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:two_cobblestone"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:one_cobblestone",
+    "count": 9
+  }
+}

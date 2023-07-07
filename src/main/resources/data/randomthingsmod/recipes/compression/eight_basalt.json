@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:eight_basalt"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:seven_basalt",
+    "count": 9
+  }
+}

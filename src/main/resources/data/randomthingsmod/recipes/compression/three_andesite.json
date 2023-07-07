@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "randomthingsmod:two_andesite"
+    }
+  },
+  "result": {
+    "item": "randomthingsmod:three_andesite"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "randomthingsmod:block/grape_vine0"
+  }
+}

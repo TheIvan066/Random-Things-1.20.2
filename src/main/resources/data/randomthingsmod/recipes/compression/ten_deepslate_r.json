@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:ten_deepslate"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:nine_deepslate",
+    "count": 9
+  }
+}

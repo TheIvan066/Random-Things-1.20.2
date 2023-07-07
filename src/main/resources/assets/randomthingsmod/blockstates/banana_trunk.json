@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "randomthingsmod:block/banana_trunk_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "randomthingsmod:block/banana_trunk"
+    },
+    "axis=z": {
+      "model": "randomthingsmod:block/banana_trunk_horizontal",
+      "x": 90
+    }
+  }
+}

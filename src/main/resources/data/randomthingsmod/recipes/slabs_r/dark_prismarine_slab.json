@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "S",
+        "S"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:dark_prismarine_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:dark_prismarine",
+        "count": 1
+    },
+    "group": "slabs"
+}

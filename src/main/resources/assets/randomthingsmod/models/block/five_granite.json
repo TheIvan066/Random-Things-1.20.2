@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "randomthingsmod:block/granite_v",
+    "particle": "minecraft:block/granite"
+
+  }
+}

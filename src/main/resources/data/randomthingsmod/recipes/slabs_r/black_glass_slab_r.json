@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "randomthingsmod:black_glass_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_stained_glass"
+  },
+  "group": "slabs"
+}

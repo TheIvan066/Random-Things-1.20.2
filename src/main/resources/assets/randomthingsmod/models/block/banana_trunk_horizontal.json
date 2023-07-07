@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "randomthingsmod:block/banana_trunk_top",
+    "side": "randomthingsmod:block/banana_trunk"
+  }
+}

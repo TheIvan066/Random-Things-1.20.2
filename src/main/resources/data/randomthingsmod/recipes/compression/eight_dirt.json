@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:eight_dirt"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:seven_dirt",
+    "count": 9
+  }
+}

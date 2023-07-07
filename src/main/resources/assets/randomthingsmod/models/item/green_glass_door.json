@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "randomthingsmod:item/green_glass_door"
+  }
+}

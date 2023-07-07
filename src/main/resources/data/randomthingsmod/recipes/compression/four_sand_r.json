@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:four_sand"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:three_sand",
+    "count": 9
+  }
+}

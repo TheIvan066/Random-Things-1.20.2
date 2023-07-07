@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "randomthingsmod:block/beta_log_top",
+    "side": "randomthingsmod:block/beta_log"
+  }
+}

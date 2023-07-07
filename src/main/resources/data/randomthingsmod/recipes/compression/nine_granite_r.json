@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:nine_granite"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:eight_granite",
+    "count": 9
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "randomthingsmod:block/cobbled_deepslate_i",
+    "particle": "minecraft:block/cobbled_deepslate"
+
+  }
+}

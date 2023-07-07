@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "randomthingsmod:block/stone_iii",
+    "particle": "minecraft:block/stone"
+  }
+}

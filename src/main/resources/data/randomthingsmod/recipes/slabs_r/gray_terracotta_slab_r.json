@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "randomthingsmod:gray_terracotta_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_terracotta"
+  },
+  "group": "slabs"
+}

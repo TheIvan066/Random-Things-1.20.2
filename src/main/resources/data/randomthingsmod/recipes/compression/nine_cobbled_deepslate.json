@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "randomthingsmod:eight_cobbled_deepslate"
+    }
+  },
+  "result": {
+    "item": "randomthingsmod:nine_cobbled_deepslate"
+  }
+}

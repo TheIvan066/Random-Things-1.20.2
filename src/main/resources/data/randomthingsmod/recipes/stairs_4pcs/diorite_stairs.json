@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SS",
+        "SS"    
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:diorite_stairs"
+        }
+    },
+    "result": {
+        "item": "minecraft:diorite",
+        "count": 3
+    },
+    "group": "stairs"
+}
+

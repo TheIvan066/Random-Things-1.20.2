@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "randomthingsmod:cherry_log",
+    "randomthingsmod:cherry_wood",
+    "randomthingsmod:stripped_cherry_log",
+    "randomthingsmod:stripped_cherry_wood"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:nine_netherrack"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:eight_netherrack",
+    "count": 9
+  }
+}

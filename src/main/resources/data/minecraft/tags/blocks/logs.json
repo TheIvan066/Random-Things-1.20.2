@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#randomthingsmod:cherry_logs",
+    "#randomthingsmod:beta_logs",
+    "#randomthingsmod:banana_logs",
+    "#randomthingsmod:citrus_logs",
+    "#randomthingsmod:mango_logs",
+    "#randomthingsmod:orange_logs",
+    "#randomthingsmod:pear_logs",
+    "#randomthingsmod:peach_logs",
+    "#randomthingsmod:pomegranate_logs"
+  ]
+}

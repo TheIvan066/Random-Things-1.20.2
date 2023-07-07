@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "randomthingsmod:three_blackstone"
+    }
+  },
+  "result": {
+    "item": "randomthingsmod:four_blackstone"
+  }
+}

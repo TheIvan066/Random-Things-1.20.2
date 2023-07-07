@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "randomthingsmod:cherry_leaves",
+    "randomthingsmod:beta_leaves",
+    "randomthingsmod:banana_leaves",
+    "randomthingsmod:citrus_leaves",
+    "randomthingsmod:mango_leaves",
+    "randomthingsmod:orange_leaves",
+    "randomthingsmod:pear_leaves",
+    "randomthingsmod:peach_leaves",
+    "randomthingsmod:pomegranate_leaves"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:eight_diorite"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:seven_diorite",
+    "count": 9
+  }
+}

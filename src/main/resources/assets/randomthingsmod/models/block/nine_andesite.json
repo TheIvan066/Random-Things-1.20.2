@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "randomthingsmod:block/andesite_ix",
+    "particle": "minecraft:block/andesite"
+
+  }
+}

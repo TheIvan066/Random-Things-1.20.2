@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "" : {"model" : "randomthingsmod:block/two_dirt"}
+  }
+}

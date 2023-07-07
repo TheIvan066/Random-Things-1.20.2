@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "randomthingsmod:block/lime_glass_trapdoor"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:two_blackstone"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:one_blackstone",
+    "count": 9
+  }
+}

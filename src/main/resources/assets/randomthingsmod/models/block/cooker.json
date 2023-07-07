@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "randomthingsmod:block/cooker_top",
+    "front": "randomthingsmod:block/cooker_front",
+    "bottom": "minecraft:quartz_block",
+    "side": "randomthingsmod:block/cooker_side"
+  }
+}
