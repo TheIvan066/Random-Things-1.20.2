@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "randomthingsmod:block/pomegranate_planks",
+    "top": "randomthingsmod:block/pomegranate_planks",
+    "side": "randomthingsmod:block/pomegranate_planks"
+  }
+}

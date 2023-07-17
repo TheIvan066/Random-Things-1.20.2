@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "randomthingsmod:block/orange_planks"
+  }
+}

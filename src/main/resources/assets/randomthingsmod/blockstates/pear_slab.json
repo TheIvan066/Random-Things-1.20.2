@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "randomthingsmod:block/pear_slab"
+    },
+    "type=double": {
+      "model": "randomthingsmod:block/pear_planks"
+    },
+    "type=top": {
+      "model": "randomthingsmod:block/pear_slab_top"
+    }
+  }
+}

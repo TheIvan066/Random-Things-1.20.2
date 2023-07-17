@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "randomthingsmod:block/peach_planks",
+    "top": "randomthingsmod:block/peach_planks",
+    "side": "randomthingsmod:block/peach_planks"
+  }
+}

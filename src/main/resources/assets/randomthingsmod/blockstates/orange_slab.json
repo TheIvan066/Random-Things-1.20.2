@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "randomthingsmod:block/orange_slab"
+    },
+    "type=double": {
+      "model": "randomthingsmod:block/orange_planks"
+    },
+    "type=top": {
+      "model": "randomthingsmod:block/orange_slab_top"
+    }
+  }
+}

@@ -392,7 +392,7 @@ public class ModBlocks {
     public static final Block CHERRY_SLAB = registerBlock("cherry_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB)));
     public static final Block CHERRY_STAIRS = registerBlock("cherry_stairs",
-            new ModStairsBlock(Blocks.CHERRY_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+            new ModStairsBlock(ModBlocks.CHERRY_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
     public static final Block CHERRY_BUTTON = registerBlock("cherry_button",
             new ModStoneButtonBlock(FabricBlockSettings.create()
                     .strength(1f).noCollision(), BlockSetType.CHERRY, 60, true));
@@ -426,6 +426,22 @@ public class ModBlocks {
 
     public static final Block CITRUS_PLANKS = registerBlock("citrus_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0f, 3.0f)));
+    public static final Block CITRUS_SLAB = registerBlock("citrus_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB)));
+    public static final Block CITRUS_STAIRS = registerBlock("citrus_stairs",
+            new ModStairsBlock(ModBlocks.CITRUS_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+    public static final Block CITRUS_BUTTON = registerBlock("citrus_button",
+            new ModStoneButtonBlock(FabricBlockSettings.create()
+                    .strength(1f).noCollision(), BlockSetType.OAK, 60, true));
+    public static final Block CITRUS_PRESSURE_PLATE = registerBlock("citrus_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.create()
+                    .strength(1f), BlockSetType.IRON));
+    public static final Block CITRUS_FENCE = registerBlock("citrus_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+    public static final Block CITRUS_FENCE_GATE = registerBlock("citrus_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE), WoodType.OAK));
+    public static final Block CITRUS_SIGN = registerBlock("citrus_sign",
+            new SignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), WoodType.OAK));
 
 
     public static final Block BETA_LOG = registerBlock("beta_log",
@@ -443,6 +459,22 @@ public class ModBlocks {
 
     public static final Block BETA_PLANKS = registerBlock("beta_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0f, 3.0f)));
+    public static final Block BETA_SLAB = registerBlock("beta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB)));
+    public static final Block BETA_STAIRS = registerBlock("beta_stairs",
+            new ModStairsBlock(ModBlocks.BETA_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+    public static final Block BETA_BUTTON = registerBlock("beta_button",
+            new ModStoneButtonBlock(FabricBlockSettings.create()
+                    .strength(1f).noCollision(), BlockSetType.OAK, 60, true));
+    public static final Block BETA_PRESSURE_PLATE = registerBlock("beta_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.create()
+                    .strength(1f), BlockSetType.IRON));
+    public static final Block BETA_FENCE = registerBlock("beta_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+    public static final Block BETA_FENCE_GATE = registerBlock("beta_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE), WoodType.OAK));
+    public static final Block BETA_SIGN = registerBlock("beta_sign",
+            new SignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), WoodType.OAK));
 
 
     public static final Block BANANA_TRUNK = registerBlock("banana_trunk",
@@ -476,7 +508,22 @@ public class ModBlocks {
 
     public static final Block MANGO_PLANKS = registerBlock("mango_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0f, 3.0f)));
-
+    public static final Block MANGO_SLAB = registerBlock("mango_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB)));
+    public static final Block MANGO_STAIRS = registerBlock("mango_stairs",
+            new ModStairsBlock(ModBlocks.MANGO_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+    public static final Block MANGO_BUTTON = registerBlock("mango_button",
+            new ModStoneButtonBlock(FabricBlockSettings.create()
+                    .strength(1f).noCollision(), BlockSetType.OAK, 60, true));
+    public static final Block MANGO_PRESSURE_PLATE = registerBlock("mango_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.create()
+                    .strength(1f), BlockSetType.IRON));
+    public static final Block MANGO_FENCE = registerBlock("mango_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+    public static final Block MANGO_FENCE_GATE = registerBlock("mango_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE), WoodType.OAK));
+    public static final Block MANGO_SIGN = registerBlock("mango_sign",
+            new SignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), WoodType.OAK));
 
     public static final Block ORANGE_LOG = registerBlock("orange_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0f)));
@@ -497,7 +544,22 @@ public class ModBlocks {
 
     public static final Block ORANGE_PLANKS = registerBlock("orange_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0f, 3.0f)));
-
+    public static final Block ORANGE_SLAB = registerBlock("orange_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB)));
+    public static final Block ORANGE_STAIRS = registerBlock("orange_stairs",
+            new ModStairsBlock(ModBlocks.ORANGE_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+    public static final Block ORANGE_BUTTON = registerBlock("orange_button",
+            new ModStoneButtonBlock(FabricBlockSettings.create()
+                    .strength(1f).noCollision(), BlockSetType.OAK, 60, true));
+    public static final Block ORANGE_PRESSURE_PLATE = registerBlock("orange_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.create()
+                    .strength(1f), BlockSetType.IRON));
+    public static final Block ORANGE_FENCE = registerBlock("orange_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+    public static final Block ORANGE_FENCE_GATE = registerBlock("orange_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE), WoodType.OAK));
+    public static final Block ORANGE_SIGN = registerBlock("orange_sign",
+            new SignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), WoodType.OAK));
 
     public static final Block PEACH_LOG = registerBlock("peach_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0f)));
@@ -518,7 +580,22 @@ public class ModBlocks {
 
     public static final Block PEACH_PLANKS = registerBlock("peach_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0f, 3.0f)));
-
+    public static final Block PEACH_SLAB = registerBlock("peach_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB)));
+    public static final Block PEACH_STAIRS = registerBlock("peach_stairs",
+            new ModStairsBlock(ModBlocks.PEACH_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+    public static final Block PEACH_BUTTON = registerBlock("peach_button",
+            new ModStoneButtonBlock(FabricBlockSettings.create()
+                    .strength(1f).noCollision(), BlockSetType.OAK, 60, true));
+    public static final Block PEACH_PRESSURE_PLATE = registerBlock("peach_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.create()
+                    .strength(1f), BlockSetType.IRON));
+    public static final Block PEACH_FENCE = registerBlock("peach_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+    public static final Block PEACH_FENCE_GATE = registerBlock("peach_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE), WoodType.OAK));
+    public static final Block PEACH_SIGN = registerBlock("peach_sign",
+            new SignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), WoodType.OAK));
 
     public static final Block PEAR_LOG = registerBlock("pear_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0f)));
@@ -539,7 +616,22 @@ public class ModBlocks {
 
     public static final Block PEAR_PLANKS = registerBlock("pear_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0f, 3.0f)));
-
+    public static final Block PEAR_SLAB = registerBlock("pear_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB)));
+    public static final Block PEAR_STAIRS = registerBlock("pear_stairs",
+            new ModStairsBlock(ModBlocks.PEAR_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+    public static final Block PEAR_BUTTON = registerBlock("pear_button",
+            new ModStoneButtonBlock(FabricBlockSettings.create()
+                    .strength(1f).noCollision(), BlockSetType.OAK, 60, true));
+    public static final Block PEAR_PRESSURE_PLATE = registerBlock("pear_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.create()
+                    .strength(1f), BlockSetType.IRON));
+    public static final Block PEAR_FENCE = registerBlock("pear_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+    public static final Block PEAR_FENCE_GATE = registerBlock("pear_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE), WoodType.OAK));
+    public static final Block PEAR_SIGN = registerBlock("pear_sign",
+            new SignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), WoodType.OAK));
 
     public static final Block POMEGRANATE_LOG = registerBlock("pomegranate_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0f)));
@@ -560,6 +652,22 @@ public class ModBlocks {
 
     public static final Block POMEGRANATE_PLANKS = registerBlock("pomegranate_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0f, 3.0f)));
+    public static final Block POMEGRANATE_SLAB = registerBlock("pomegranate_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB)));
+    public static final Block POMEGRANATE_STAIRS = registerBlock("pomegranate_stairs",
+            new ModStairsBlock(ModBlocks.POMEGRANATE_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+    public static final Block POMEGRANATE_BUTTON = registerBlock("pomegranate_button",
+            new ModStoneButtonBlock(FabricBlockSettings.create()
+                    .strength(1f).noCollision(), BlockSetType.OAK, 60, true));
+    public static final Block POMEGRANATE_PRESSURE_PLATE = registerBlock("pomegranate_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.create()
+                    .strength(1f), BlockSetType.IRON));
+    public static final Block POMEGRANATE_FENCE = registerBlock("pomegranate_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+    public static final Block POMEGRANATE_FENCE_GATE = registerBlock("pomegranate_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE), WoodType.OAK));
+    public static final Block POMEGRANATE_SIGN = registerBlock("pomegranate_sign",
+            new SignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), WoodType.OAK));
 
 // compressions
 

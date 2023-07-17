@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "randomthingsmod:block/beta_slab"
+    },
+    "type=double": {
+      "model": "randomthingsmod:block/beta_planks"
+    },
+    "type=top": {
+      "model": "randomthingsmod:block/beta_slab_top"
+    }
+  }
+}

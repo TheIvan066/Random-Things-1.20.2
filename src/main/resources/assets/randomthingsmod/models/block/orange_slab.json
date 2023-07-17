@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "randomthingsmod:block/orange_planks",
+    "top": "randomthingsmod:block/orange_planks",
+    "side": "randomthingsmod:block/orange_planks"
+  }
+}
