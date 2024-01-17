@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:mango_log"
+  },
+  "result": "randomthingsmod:stripped_mango_log",
+  "group": "cutting_logs",
+  "count": 1
+}

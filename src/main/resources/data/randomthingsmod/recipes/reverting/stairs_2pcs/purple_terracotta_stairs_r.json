@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:purple_terracotta_stairs"
+    },
+    {
+      "item": "randomthingsmod:purple_terracotta_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_terracotta",
+    "count": 1
+  },
+  "group": "stairs"
+}

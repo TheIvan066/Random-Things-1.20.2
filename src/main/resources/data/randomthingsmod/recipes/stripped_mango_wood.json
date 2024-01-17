@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "randomthingsmod:stripped_mango_log"
+    }
+  },
+  "result": {
+    "item": "randomthingsmod:stripped_mango_wood",
+    "count": 3
+  }
+}

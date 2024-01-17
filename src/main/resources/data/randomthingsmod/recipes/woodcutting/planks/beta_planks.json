@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+    "item": "randomthingsmod:beta_fence"
+    },
+		{
+    "item": "randomthingsmod:beta_fence_gate"
+    },
+    {
+    "item": "randomthingsmod:beta_stairs"
+    }
+    {
+    "item": "randomthingsmod:beta_button"
+    }
+    {
+    "item": "randomthingsmod:beta_pressure_plate"
+    }
+  ],
+  "result": "randomthingsmod:beta_planks",
+  "group": "cutting_blocks",
+  "count": 1
+}

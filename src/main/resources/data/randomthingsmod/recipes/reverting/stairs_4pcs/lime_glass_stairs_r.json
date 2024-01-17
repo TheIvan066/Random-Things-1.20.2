@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "randomthingsmod:lime_glass_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_stained_glass",
+    "count": 3
+  },
+  "group": "stairs"
+}

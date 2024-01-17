@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cherry_planks"
+  },
+  "result": "minecraft:cherry_pressure_plate",
+  "group": "cutting_pressure_plates",
+  "count": 1
+}

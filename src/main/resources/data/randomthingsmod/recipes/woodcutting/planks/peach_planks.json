@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+    "item": "randomthingsmod:peach_fence"
+    },
+		{
+    "item": "randomthingsmod:peach_fence_gate"
+    },
+    {
+    "item": "randomthingsmod:peach_stairs"
+    },
+    {
+    "item": "randomthingsmod:peach_button"
+    },
+    {
+    "item": "randomthingsmod:peach_pressure_plate"
+    }
+  ],
+  "result": "randomthingsmod:peach_planks",
+  "group": "cutting_blocks",
+  "count": 1
+}

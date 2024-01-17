@@ -54,47 +54,83 @@ public class FuelRegistry {
         registry.add(ModBlocks.CHERRY_STAIRS, 300);
         registry.add(ModBlocks.CHERRY_FENCE, 300);
         registry.add(ModBlocks.CHERRY_FENCE_GATE, 300);
+
         registry.add(ModBlocks.BETA_LOG, 300);
         registry.add(ModBlocks.BETA_WOOD, 300);
         registry.add(ModBlocks.BETA_PLANKS, 300);
         registry.add(ModBlocks.BETA_LEAVES, 60);
+        registry.add(ModBlocks.BETA_SLAB, 150);
+        registry.add(ModBlocks.BETA_STAIRS, 300);
+        registry.add(ModBlocks.BETA_FENCE, 300);
+        registry.add(ModBlocks.BETA_FENCE_GATE, 300);
+
         registry.add(ModBlocks.BANANA_TRUNK, 300);
         registry.add(ModBlocks.BANANA_LEAVES, 60);
+
         registry.add(ModBlocks.CITRUS_LOG, 300);
         registry.add(ModBlocks.STRIPPED_CITRUS_LOG, 300);
         registry.add(ModBlocks.CITRUS_WOOD, 300);
         registry.add(ModBlocks.STRIPPED_CITRUS_WOOD, 300);
         registry.add(ModBlocks.CITRUS_PLANKS, 300);
         registry.add(ModBlocks.CITRUS_LEAVES, 60);
+        registry.add(ModBlocks.CITRUS_SLAB, 150);
+        registry.add(ModBlocks.CITRUS_STAIRS, 300);
+        registry.add(ModBlocks.CITRUS_FENCE, 300);
+        registry.add(ModBlocks.CITRUS_FENCE_GATE, 300);
+
         registry.add(ModBlocks.MANGO_LOG, 300);
         registry.add(ModBlocks.STRIPPED_MANGO_LOG, 300);
         registry.add(ModBlocks.MANGO_WOOD, 300);
         registry.add(ModBlocks.STRIPPED_MANGO_WOOD, 300);
         registry.add(ModBlocks.MANGO_PLANKS, 300);
         registry.add(ModBlocks.MANGO_LEAVES, 60);
+        registry.add(ModBlocks.MANGO_SLAB, 150);
+        registry.add(ModBlocks.MANGO_STAIRS, 300);
+        registry.add(ModBlocks.MANGO_FENCE, 300);
+        registry.add(ModBlocks.MANGO_FENCE_GATE, 300);
+
         registry.add(ModBlocks.ORANGE_LOG, 300);
         registry.add(ModBlocks.STRIPPED_ORANGE_LOG, 300);
         registry.add(ModBlocks.ORANGE_WOOD, 300);
         registry.add(ModBlocks.STRIPPED_ORANGE_WOOD, 300);
         registry.add(ModBlocks.ORANGE_PLANKS, 300);
         registry.add(ModBlocks.ORANGE_LEAVES, 60);
+        registry.add(ModBlocks.ORANGE_SLAB, 150);
+        registry.add(ModBlocks.ORANGE_STAIRS, 300);
+        registry.add(ModBlocks.ORANGE_FENCE, 300);
+        registry.add(ModBlocks.ORANGE_FENCE_GATE, 300);
+
         registry.add(ModBlocks.PEACH_LOG, 300);
         registry.add(ModBlocks.STRIPPED_PEACH_LOG, 300);
         registry.add(ModBlocks.PEACH_WOOD, 300);
         registry.add(ModBlocks.STRIPPED_PEACH_WOOD, 300);
         registry.add(ModBlocks.PEACH_PLANKS, 300);
         registry.add(ModBlocks.PEACH_LEAVES, 60);
+        registry.add(ModBlocks.PEACH_SLAB, 150);
+        registry.add(ModBlocks.PEACH_STAIRS, 300);
+        registry.add(ModBlocks.PEACH_FENCE, 300);
+        registry.add(ModBlocks.PEACH_FENCE_GATE, 300);
+
         registry.add(ModBlocks.PEAR_LOG, 300);
         registry.add(ModBlocks.STRIPPED_PEAR_LOG, 300);
         registry.add(ModBlocks.PEAR_WOOD, 300);
         registry.add(ModBlocks.STRIPPED_PEAR_WOOD, 300);
         registry.add(ModBlocks.PEAR_PLANKS, 300);
         registry.add(ModBlocks.PEAR_LEAVES, 60);
+        registry.add(ModBlocks.PEAR_SLAB, 150);
+        registry.add(ModBlocks.PEAR_STAIRS, 300);
+        registry.add(ModBlocks.PEAR_FENCE, 300);
+        registry.add(ModBlocks.PEAR_FENCE_GATE, 300);
+
         registry.add(ModBlocks.POMEGRANATE_LOG, 300);
         registry.add(ModBlocks.STRIPPED_POMEGRANATE_LOG, 300);
         registry.add(ModBlocks.POMEGRANATE_WOOD, 300);
         registry.add(ModBlocks.STRIPPED_POMEGRANATE_WOOD, 300);
         registry.add(ModBlocks.POMEGRANATE_PLANKS, 300);
         registry.add(ModBlocks.POMEGRANATE_LEAVES, 60);
+        registry.add(ModBlocks.POMEGRANATE_SLAB, 150);
+        registry.add(ModBlocks.POMEGRANATE_STAIRS, 300);
+        registry.add(ModBlocks.POMEGRANATE_FENCE, 300);
+        registry.add(ModBlocks.POMEGRANATE_FENCE_GATE, 300);
     }
 }

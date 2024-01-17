@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "randomthingsmod:dirt_stairs"
+        },
+        {
+            "item": "randomthingsmod:dirt_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dirt",
+        "count": 1
+    },
+    "group": "stairs"
+}

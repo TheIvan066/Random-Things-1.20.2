@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:gray_glass_stairs"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:gray_glass_slab",
+    "count": 1
+  },
+  "group": "stairs"
+}

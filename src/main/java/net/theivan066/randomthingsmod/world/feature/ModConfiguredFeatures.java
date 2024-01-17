@@ -22,7 +22,7 @@ import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?,?>> CHERRY = registerKey("trees_cherry");
-    public static final RegistryKey<ConfiguredFeature<?,?>> BETA = ConfiguredFeatures.of("trees_beta");
+    public static final RegistryKey<ConfiguredFeature<?,?>> BETA = registerKey("trees_beta");
     public static final RegistryKey<ConfiguredFeature<?,?>> CITRUS = registerKey("trees_citrus");
     public static final RegistryKey<ConfiguredFeature<?,?>> MANGO = registerKey("trees_mango");
     public static final RegistryKey<ConfiguredFeature<?,?>> ORANGE = registerKey("trees_orange");

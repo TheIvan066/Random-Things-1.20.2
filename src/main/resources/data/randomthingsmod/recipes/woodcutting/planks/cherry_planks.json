@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+    "item": "randomthingsmod:cherry_fence"
+    },
+		{
+    "item": "randomthingsmod:cherry_fence_gate"
+    },
+    {
+    "item": "randomthingsmod:cherry_stairs"
+    },
+    {
+    "item": "randomthingsmod:cherry_button"
+    },
+    {
+    "item": "randomthingsmod:cherry_pressure_plate"
+    }
+  ],
+  "result": "randomthingsmod:cherry_planks",
+  "group": "cutting_blocks",
+  "count": 1
+}

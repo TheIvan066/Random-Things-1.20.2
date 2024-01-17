@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SS",
+        "SS"    
+    ],
+    "key": {
+        "S": {
+            "item": "randomthingsmod:dirt_stairs"
+        }
+    },
+    "result": {
+        "item": "minecraft:dirt",
+        "count": 3
+    },
+    "group": "stairs"
+}
+

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:pomegranate_planks"
+  },
+  "result": "randomthingsmod:pomegranate_button",
+  "group": "cutting_buttons",
+  "count": 1
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "randomthingsmod:brown_concrete_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_concrete",
+    "count": 3
+  },
+  "group": "stairs"
+}

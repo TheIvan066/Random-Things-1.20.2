@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:pear_planks"
+  },
+  "result": "randomthingsmod:pear_slab",
+  "group": "cutting_slabs",
+  "count": 2
+}

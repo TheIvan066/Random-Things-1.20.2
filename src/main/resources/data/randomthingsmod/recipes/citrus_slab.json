@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_slab",
+  "key": {
+    "#": {
+      "item": "randomthingsmod:citrus_planks"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "randomthingsmod:citrus_slab"
+  },
+  "show_notification": true
+}

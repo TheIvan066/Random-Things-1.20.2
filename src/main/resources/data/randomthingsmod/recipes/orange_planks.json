@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "randomthingsmod:orange_logs"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:orange_planks",
+    "count": 4
+  }
+}

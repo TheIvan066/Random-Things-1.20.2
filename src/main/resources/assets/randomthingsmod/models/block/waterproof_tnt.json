@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "randomthingsmod:block/waterproof_tnt_bottom",
+    "side": "randomthingsmod:block/waterproof_tnt_side",
+    "top": "randomthingsmod:block/waterproof_tnt_top"
+  }
+}

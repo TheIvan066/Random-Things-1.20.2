@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:beta_planks"
+  },
+  "result": "randomthingsmod:beta_fence",
+  "group": "cutting_fences",
+  "count": 1
+}

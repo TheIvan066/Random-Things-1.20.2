@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:pear_planks"
+  },
+  "result": "randomthingsmod:pear_fence_gate",
+  "group": "cutting_fence_gates",
+  "count": 1
+}

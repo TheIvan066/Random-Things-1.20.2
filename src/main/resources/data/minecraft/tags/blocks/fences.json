@@ -2,6 +2,13 @@
   "replace": false,
   "values": [
     "randomthingsmod:test_fence",
-    "randomthingsmod:cherry_fence"
+    "randomthingsmod:cherry_fence",
+    "randomthingsmod:citrus_fence",
+    "randomthingsmod:beta_fence",
+    "randomthingsmod:mango_fence",
+    "randomthingsmod:orange_fence",
+    "randomthingsmod:peach_fence",
+    "randomthingsmod:pear_fence",
+    "randomthingsmod:pomegranate_fence"
   ]
 }

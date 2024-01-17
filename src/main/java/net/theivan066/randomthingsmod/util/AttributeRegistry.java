@@ -6,12 +6,12 @@ import net.theivan066.randomthingsmod.entity.custom.*;
 
 public class AttributeRegistry {
     public static void registerAttributes() {
-        FabricDefaultAttributeRegistry.register(ModEntities.MUMMY, MummyEntity.setAttributes());
-        FabricDefaultAttributeRegistry.register(ModEntities.NATSU, NatsuEntity.setAttributes());
-        FabricDefaultAttributeRegistry.register(ModEntities.ZEROFOUR, ZerofourEntity.setAttributes());
-        FabricDefaultAttributeRegistry.register(ModEntities.YAGI, YagiEntity.setAttributes());
-        FabricDefaultAttributeRegistry.register(ModEntities.TORA, ToraEntity.setAttributes());
-        FabricDefaultAttributeRegistry.register(ModEntities.TIGER, TigerEntity.setAttributes());
-        FabricDefaultAttributeRegistry.register(ModEntities.KOUHA, KouhaEntity.setAttributes());
-    }
+
+        FabricDefaultAttributeRegistry.register(ModEntities.MUMMY, MummyEntity.createMummyAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.NATSU, NatsuEntity.createNatsuAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.ZEROFOUR, ZerofourEntity.createZerofourAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.YAGI, YagiEntity.createYagiAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.TORA, ToraEntity.createToraAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
+   }
 }

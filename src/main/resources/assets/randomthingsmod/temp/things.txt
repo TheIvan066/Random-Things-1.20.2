@@ -1,0 +1,13 @@
+
+
+
+
+
+Number 1 -> from 0 - 10
+Number 2 -> from 0 - 10
+Sign -> Assign a sign to each number:
+
+
+1 - +
+2 - -
+3 - *

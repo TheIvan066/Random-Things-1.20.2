@@ -1,6 +1,5 @@
 package net.theivan066.randomthingsmod.item;
 
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Items;
@@ -76,14 +75,15 @@ public enum ModArmorMaterials implements ArmorMaterial {
         return this.protectionAmounts[slot.getEntitySlotId()];
     }
    */
+
     @Override
     public int getDurability(ArmorItem.Type type) {
-        return 0;
+        return BASE_DURABILITY[type.getEquipmentSlot().getEntitySlotId()] * this.durabilityMultiplier;
     }
 
     @Override
     public int getProtection(ArmorItem.Type type) {
-        return 0;
+        return this.protectionAmounts[type.getEquipmentSlot().getEntitySlotId()];
     }
 
     @Override

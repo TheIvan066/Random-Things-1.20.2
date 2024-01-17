@@ -483,7 +483,8 @@ public class ModItemGroup {
                                 entries.add(ModBlocks.CHERRY_FENCE_GATE);
                                 entries.add(ModBlocks.CHERRY_BUTTON);
                                 entries.add(ModBlocks.CHERRY_PRESSURE_PLATE);
-
+//                                entries.add(ModItems.CHERRY_SIGN);
+//                                entries.add(ModItems.HANGING_CHERRY_SIGN);
 
                                 entries.add(ModBlocks.CITRUS_LOG);
                                 entries.add(ModBlocks.CITRUS_WOOD);
@@ -492,6 +493,12 @@ public class ModItemGroup {
                                 entries.add(ModBlocks.CITRUS_LEAVES);
                                 entries.add(ModBlocks.CITRUS_SAPLING);
                                 entries.add(ModBlocks.CITRUS_PLANKS);
+                                entries.add(ModBlocks.CITRUS_SLAB);
+                                entries.add(ModBlocks.CITRUS_STAIRS);
+                                entries.add(ModBlocks.CITRUS_FENCE);
+                                entries.add(ModBlocks.CITRUS_FENCE_GATE);
+                                entries.add(ModBlocks.CITRUS_BUTTON);
+                                entries.add(ModBlocks.CITRUS_PRESSURE_PLATE);
 
                                 entries.add(ModBlocks.MANGO_LOG);
                                 entries.add(ModBlocks.MANGO_WOOD);
@@ -500,6 +507,12 @@ public class ModItemGroup {
                                 entries.add(ModBlocks.MANGO_LEAVES);
                                 entries.add(ModBlocks.MANGO_SAPLING);
                                 entries.add(ModBlocks.MANGO_PLANKS);
+                                entries.add(ModBlocks.MANGO_SLAB);
+                                entries.add(ModBlocks.MANGO_STAIRS);
+                                entries.add(ModBlocks.MANGO_FENCE);
+                                entries.add(ModBlocks.MANGO_FENCE_GATE);
+                                entries.add(ModBlocks.MANGO_BUTTON);
+                                entries.add(ModBlocks.MANGO_PRESSURE_PLATE);
 
                                 entries.add(ModBlocks.ORANGE_LOG);
                                 entries.add(ModBlocks.ORANGE_WOOD);
@@ -508,6 +521,12 @@ public class ModItemGroup {
                                 entries.add(ModBlocks.ORANGE_LEAVES);
                                 entries.add(ModBlocks.ORANGE_SAPLING);
                                 entries.add(ModBlocks.ORANGE_PLANKS);
+                                entries.add(ModBlocks.ORANGE_SLAB);
+                                entries.add(ModBlocks.ORANGE_STAIRS);
+                                entries.add(ModBlocks.ORANGE_FENCE);
+                                entries.add(ModBlocks.ORANGE_FENCE_GATE);
+                                entries.add(ModBlocks.ORANGE_BUTTON);
+                                entries.add(ModBlocks.ORANGE_PRESSURE_PLATE);
 
                                 entries.add(ModBlocks.PEACH_LOG);
                                 entries.add(ModBlocks.PEACH_WOOD);
@@ -516,6 +535,12 @@ public class ModItemGroup {
                                 entries.add(ModBlocks.PEACH_LEAVES);
                                 entries.add(ModBlocks.PEACH_SAPLING);
                                 entries.add(ModBlocks.PEACH_PLANKS);
+                                entries.add(ModBlocks.PEACH_SLAB);
+                                entries.add(ModBlocks.PEACH_STAIRS);
+                                entries.add(ModBlocks.PEACH_FENCE);
+                                entries.add(ModBlocks.PEACH_FENCE_GATE);
+                                entries.add(ModBlocks.PEACH_BUTTON);
+                                entries.add(ModBlocks.PEACH_PRESSURE_PLATE);
 
                                 entries.add(ModBlocks.PEAR_LOG);
                                 entries.add(ModBlocks.PEAR_WOOD);
@@ -524,6 +549,12 @@ public class ModItemGroup {
                                 entries.add(ModBlocks.PEAR_LEAVES);
                                 entries.add(ModBlocks.PEAR_SAPLING);
                                 entries.add(ModBlocks.PEAR_PLANKS);
+                                entries.add(ModBlocks.PEAR_SLAB);
+                                entries.add(ModBlocks.PEAR_STAIRS);
+                                entries.add(ModBlocks.PEAR_FENCE);
+                                entries.add(ModBlocks.PEAR_FENCE_GATE);
+                                entries.add(ModBlocks.PEAR_BUTTON);
+                                entries.add(ModBlocks.PEAR_PRESSURE_PLATE);
 
                                 entries.add(ModBlocks.POMEGRANATE_LOG);
                                 entries.add(ModBlocks.POMEGRANATE_WOOD);
@@ -532,6 +563,12 @@ public class ModItemGroup {
                                 entries.add(ModBlocks.POMEGRANATE_LEAVES);
                                 entries.add(ModBlocks.POMEGRANATE_SAPLING);
                                 entries.add(ModBlocks.POMEGRANATE_PLANKS);
+                                entries.add(ModBlocks.POMEGRANATE_SLAB);
+                                entries.add(ModBlocks.POMEGRANATE_STAIRS);
+                                entries.add(ModBlocks.POMEGRANATE_FENCE);
+                                entries.add(ModBlocks.POMEGRANATE_FENCE_GATE);
+                                entries.add(ModBlocks.POMEGRANATE_BUTTON);
+                                entries.add(ModBlocks.POMEGRANATE_PRESSURE_PLATE);
 
                                 entries.add(ModBlocks.BANANA_TRUNK);;
                                 entries.add(ModBlocks.BANANA_LEAVES);
@@ -542,6 +579,12 @@ public class ModItemGroup {
                                 entries.add(ModBlocks.BETA_LEAVES);
                                 entries.add(ModBlocks.BETA_SAPLING);
                                 entries.add(ModBlocks.BETA_PLANKS);
+                                entries.add(ModBlocks.BETA_SLAB);
+                                entries.add(ModBlocks.BETA_STAIRS);
+                                entries.add(ModBlocks.BETA_FENCE);
+                                entries.add(ModBlocks.BETA_FENCE_GATE);
+                                entries.add(ModBlocks.BETA_BUTTON);
+                                entries.add(ModBlocks.BETA_PRESSURE_PLATE);
                             }).build());
     public static ItemGroup RANDOMBLOCKS = Registry.register(Registries.ITEM_GROUP, new Identifier(RandomThingsMod.MOD_ID, "randomblocka"),
                     FabricItemGroup.builder().displayName(Text.translatable("itemgroup.random_blocks"))
@@ -740,6 +783,11 @@ public class ModItemGroup {
                                 entries.add(ModItems.COPPER_HOE);
                                 entries.add(ModItems.COPPER_SHOVEL);
                                 entries.add(ModItems.COPPER_PICKAXE);
+                                entries.add(ModItems.EMERALD_SWORD);
+                                entries.add(ModItems.EMERALD_AXE);
+                                entries.add(ModItems.EMERALD_HOE);
+                                entries.add(ModItems.EMERALD_SHOVEL);
+                                entries.add(ModItems.EMERALD_PICKAXE);
 
                                 entries.add(ModItems.PAN);
                                 entries.add(ModItems.DIAMOND_PAN);
@@ -758,7 +806,6 @@ public class ModItemGroup {
                                 entries.add(ModItems.ZEROFOUR_SPAWN_EGG);
                                 entries.add(ModItems.YAGI_SPAWN_EGG);
                                 entries.add(ModItems.TORA_SPAWN_EGG);
-                                entries.add(ModItems.TIGER_SPAWN_EGG);
                             }).build());
 
 

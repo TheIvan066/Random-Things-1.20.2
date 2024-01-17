@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:mango_planks"
+  },
+  "result": "randomthingsmod:mango_door",
+  "group": "cutting_doors",
+  "count": 1
+}

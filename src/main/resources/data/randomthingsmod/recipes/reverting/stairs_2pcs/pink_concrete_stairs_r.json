@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:pink_concrete_stairs"
+    },
+    {
+      "item": "randomthingsmod:pink_concrete_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_concrete",
+    "count": 1
+  },
+  "group": "stairs"
+}

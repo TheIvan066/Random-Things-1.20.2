@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:mango_planks"
+  },
+  "result": "randomthingsmod:mango_button",
+  "group": "cutting_buttons",
+  "count": 1
+}

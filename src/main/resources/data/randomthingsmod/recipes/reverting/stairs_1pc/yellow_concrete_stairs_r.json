@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:yellow_concrete_stairs"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:yellow_concrete_slab",
+    "count": 1
+  },
+  "group": "stairs"
+}

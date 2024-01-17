@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+    "item": "randomthingsmod:mango_fence"
+    },
+		{
+    "item": "randomthingsmod:mango_fence_gate"
+    },
+    {
+    "item": "randomthingsmod:mango_stairs"
+    },
+    {
+    "item": "randomthingsmod:mango_button"
+    },
+    {
+    "item": "randomthingsmod:mango_pressure_plate"
+    }
+  ],
+  "result": "randomthingsmod:mango_planks",
+  "group": "cutting_blocks",
+  "count": 1
+}

@@ -30,6 +30,24 @@
     },
     {
       "item": "randomthingsmod:beta_planks"
+    },
+    {
+      "item": "randomthingsmod:orange_planks"
+    },
+    {
+      "item": "randomthingsmod:mango_planks"
+    },
+    {
+      "item": "randomthingsmod:peach_planks"
+    },
+    {
+      "item": "randomthingsmod:pear_planks"
+    },
+    {
+      "item": "randomthingsmod:pomegranate_planks"
+    },
+    {
+      "item": "randomthingsmod:citrus_planks"
     }
   ],
   "result": "minecraft:stick",

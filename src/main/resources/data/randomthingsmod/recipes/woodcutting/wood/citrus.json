@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:citrus_log"
+  },
+  "result": "randomthingsmod:citrus_wood",
+  "group": "cutting_wood",
+  "count": 1
+}

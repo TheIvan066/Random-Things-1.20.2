@@ -37,12 +37,16 @@ public class ModEntities {
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, YagiEntity::new)
                     .dimensions(EntityDimensions.fixed(0.6f, 1.8f)).build());
 
-    public static final EntityType<TigerEntity> TIGER = Registry.register(
-            Registries.ENTITY_TYPE, new Identifier(RandomThingsMod.MOD_ID, "tiger"),
-            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, TigerEntity::new)
-                    .dimensions(EntityDimensions.fixed(1.5f, 1.75f)).build());
-    public static final EntityType<KouhaEntity> KOUHA = Registry.register(
-            Registries.ENTITY_TYPE, new Identifier(RandomThingsMod.MOD_ID, "kouha"),
-            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, KouhaEntity::new)
-                    .dimensions(EntityDimensions.fixed(1.5f, 1.75f)).build());
+//    public static final EntityType<TigerEntity> TIGER = Registry.register(
+//            Registries.ENTITY_TYPE, new Identifier(RandomThingsMod.MOD_ID, "tiger"),
+//            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, TigerEntity::new)
+//                    .dimensions(EntityDimensions.fixed(1.5f, 1.75f)).build());
+
+    public static final EntityType<PorcupineEntity> PORCUPINE = Registry.register(
+            Registries.ENTITY_TYPE, new Identifier(RandomThingsMod.MOD_ID, "porcupine"),
+            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, PorcupineEntity::new)
+                    .dimensions(EntityDimensions.fixed(1f, 1f)).build());
+
+
+
 }

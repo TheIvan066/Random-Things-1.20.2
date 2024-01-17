@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+    "item": "randomthingsmod:mango_log"
+    },
+    {
+    "item": "randomthingsmod:mango_wood"
+    },
+    {
+    "item": "randomthingsmod:stripped_mango_log"
+    }
+  ],
+  "result": "randomthingsmod:stripped_mango_wood",
+  "group": "cutting_woods",
+  "count": 1
+}

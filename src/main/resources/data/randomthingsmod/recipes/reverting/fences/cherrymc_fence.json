@@ -1,0 +1,13 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:cherry_fence"
+		}
+	],
+	"result": {
+		"item": "minecraft:cherry_planks",
+		"count": 1
+	},
+    "group": "fences"
+}

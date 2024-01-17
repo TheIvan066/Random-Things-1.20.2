@@ -1,10 +1,7 @@
 package net.theivan066.randomthingsmod;
 
 import net.fabricmc.api.ClientModInitializer;
-import net.theivan066.randomthingsmod.client.BlockCutoutRenderer;
-import net.theivan066.randomthingsmod.client.BlockTranslucentRenderer;
-import net.theivan066.randomthingsmod.client.EntityRenderer;
-import net.theivan066.randomthingsmod.client.ScreenRenderer;
+import net.theivan066.randomthingsmod.client.*;
 
 public class RandomThingsClientMod implements ClientModInitializer {
     @Override
@@ -13,5 +10,7 @@ public class RandomThingsClientMod implements ClientModInitializer {
         BlockCutoutRenderer.registerCutout();
         EntityRenderer.registerEntity();
         ScreenRenderer.registerScreen();
+        EntityModelLayer.registerEntityModelLayer();
+        SpriteIdentifier.registerSpriteIdentifier();
     }
 }

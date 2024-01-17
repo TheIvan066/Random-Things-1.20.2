@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+    "item": "randomthingsmod:pomegranate_fence"
+    },
+    {
+    "item": "randomthingsmod:pomegranate_fence_gate"
+    },
+    {
+    "item": "randomthingsmod:pomegranate_stairs"
+    },
+    {
+    "item": "randomthingsmod:pomegranate_button"
+    },
+    {
+    "item": "randomthingsmod:pomegranate_pressure_plate"
+    }
+  ],
+  "result": "randomthingsmod:pomegranate_planks",
+  "group": "cutting_blocks",
+  "count": 1
+}

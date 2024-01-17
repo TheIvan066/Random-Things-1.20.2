@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+    "item": "randomthingsmod:beta_log"
+    },
+    {
+    "item": "randomthingsmod:beta_wood"
+    },
+    {
+    "item": "randomthingsmod:stripped_beta_log"
+    }
+  ],
+  "result": "randomthingsmod:stripped_beta_wood",
+  "group": "cutting_woods",
+  "count": 1
+}

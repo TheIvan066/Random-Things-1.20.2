@@ -12,7 +12,7 @@ public class EntityRenderer {
         EntityRendererRegistry.register(ModEntities.ZEROFOUR, ZerofourRenderer::new);
         EntityRendererRegistry.register(ModEntities.YAGI, YagiRenderer::new);
         EntityRendererRegistry.register(ModEntities.TORA, ToraRenderer::new);
-        EntityRendererRegistry.register(ModEntities.TIGER, TigerRenderer::new);
-        EntityRendererRegistry.register(ModEntities.KOUHA, KouhaRenderer::new);
+//        EntityRendererRegistry.register(ModEntities.TIGER, TigerRenderer::new);
+        EntityRendererRegistry.register(ModEntities.PORCUPINE, PorcupineRenderer::new);
     }
 }

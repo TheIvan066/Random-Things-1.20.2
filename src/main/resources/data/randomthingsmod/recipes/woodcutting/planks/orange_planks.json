@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+    "item": "randomthingsmod:orange_fence"
+    },
+		{
+    "item": "randomthingsmod:orange_fence_gate"
+    },
+    {
+    "item": "randomthingsmod:orange_stairs"
+    },
+    {
+    "item": "randomthingsmod:orange_button"
+    },
+    {
+    "item": "randomthingsmod:orange_pressure_plate"
+    }
+  ],
+  "result": "randomthingsmod:orange_planks",
+  "group": "cutting_blocks",
+  "count": 1
+}

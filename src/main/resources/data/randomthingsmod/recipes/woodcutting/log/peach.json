@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:peach_planks"
+  },
+  "result": "randomthingsmod:peach_log",
+  "group": "cutting_logs",
+  "count": 1
+}

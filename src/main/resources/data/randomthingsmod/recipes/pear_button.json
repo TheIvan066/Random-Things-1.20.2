@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:pear_planks"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:pear_button"
+  }
+}

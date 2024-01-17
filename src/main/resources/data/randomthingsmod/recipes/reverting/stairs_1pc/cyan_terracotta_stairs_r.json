@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:cyan_terracotta_stairs"
+    }
+  ],
+  "result": {
+    "item": "randomthingsmod:cyan_terracotta_slab",
+    "count": 1
+  },
+  "group": "stairs"
+}

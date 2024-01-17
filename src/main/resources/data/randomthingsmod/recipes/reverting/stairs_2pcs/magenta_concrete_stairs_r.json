@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:magenta_concrete_stairs"
+    },
+    {
+      "item": "randomthingsmod:magenta_concrete_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_concrete",
+    "count": 1
+  },
+  "group": "stairs"
+}

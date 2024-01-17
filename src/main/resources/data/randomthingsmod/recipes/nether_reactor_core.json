@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#A#",
+    "#A#",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "randomthingsmod:nether_reactor_core",
+    "count": 3
+  }
+}

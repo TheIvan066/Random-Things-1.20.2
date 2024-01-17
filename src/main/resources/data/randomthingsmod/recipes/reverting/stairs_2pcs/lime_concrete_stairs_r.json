@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:lime_concrete_stairs"
+    },
+    {
+      "item": "randomthingsmod:lime_concrete_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_concrete",
+    "count": 1
+  },
+  "group": "stairs"
+}

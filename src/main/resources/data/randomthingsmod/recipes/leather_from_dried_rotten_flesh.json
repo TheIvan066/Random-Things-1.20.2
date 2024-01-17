@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "randomthingsmod:craft_to_leather"
+        },
+        {
+            "tag": "randomthingsmod:craft_to_leather"
+        },
+        {
+            "tag": "randomthingsmod:craft_to_leather"
+        },
+        {
+            "tag": "randomthingsmod:craft_to_leather"
+        }
+
+    ],
+    "result": {
+        "item": "minecraft:leather",
+        "count": 1
+    }
+}

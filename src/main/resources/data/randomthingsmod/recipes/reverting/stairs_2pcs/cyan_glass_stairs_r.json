@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomthingsmod:cyan_glass_stairs"
+    },
+    {
+      "item": "randomthingsmod:cyan_glass_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_stained_glass",
+    "count": 1
+  },
+  "group": "stairs"
+}

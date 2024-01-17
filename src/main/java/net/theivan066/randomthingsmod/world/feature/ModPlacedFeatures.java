@@ -34,8 +34,8 @@ public class ModPlacedFeatures {
       var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
       register(context, HALITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.HALITE_ORE_KEY),
-              modifiersWithCount(16, // VeinsPerChunk
-                      HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+              modifiersWithCount(12, // VeinsPerChunk
+                      HeightRangePlacementModifier.uniform(YOffset.aboveBottom(0), YOffset.belowTop(80))));
 
 
       register(context, CHERRY_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CHERRY),

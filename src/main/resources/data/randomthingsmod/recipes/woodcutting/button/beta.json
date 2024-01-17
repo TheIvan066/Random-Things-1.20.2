@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:beta_planks"
+  },
+  "result": "randomthingsmod:beta_button",
+  "group": "cutting_buttons",
+  "count": 1
+}

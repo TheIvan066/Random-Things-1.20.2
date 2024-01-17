@@ -6,9 +6,7 @@ import net.theivan066.randomthingsmod.block.ModBlocks;
 
 public class BlockTranslucentRenderer {
     public static void registerTranslucent() {
-
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_DOOR, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_TRAPDOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_SLAB, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_GLASS_SLAB, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_GLASS_SLAB, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_GLASS_SLAB, RenderLayer.getTranslucent());
@@ -25,6 +23,8 @@ public class BlockTranslucentRenderer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_GLASS_SLAB, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_GLASS_SLAB, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_SLAB, RenderLayer.getTranslucent());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_GLASS_STAIRS, RenderLayer.getTranslucent());
@@ -41,6 +41,8 @@ public class BlockTranslucentRenderer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_STAIRS, RenderLayer.getTranslucent());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_GLASS_DOOR, RenderLayer.getTranslucent());
@@ -57,6 +59,8 @@ public class BlockTranslucentRenderer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLASS_DOOR, RenderLayer.getTranslucent());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_GLASS_TRAPDOOR, RenderLayer.getTranslucent());

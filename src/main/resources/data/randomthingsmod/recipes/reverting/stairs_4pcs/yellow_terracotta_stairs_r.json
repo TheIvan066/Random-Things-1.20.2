@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "randomthingsmod:yellow_terracotta_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_terracotta",
+    "count": 3
+  },
+  "group": "stairs"
+}

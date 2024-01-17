@@ -1,10 +1,7 @@
 package net.theivan066.randomthingsmod.util;
 
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
-import net.minecraft.item.Items;
-import net.theivan066.randomthingsmod.RandomThingsMod;
 import net.theivan066.randomthingsmod.block.ModBlocks;
-import net.theivan066.randomthingsmod.item.ModItems;
 
 public class StrippableRegistry {
     public static void registerStrippables() {

@@ -4,9 +4,22 @@
   "package": "net.theivan066.randomthingsmod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ChestStateManagerMixin",
+    "ForgingScreenHandlerMixin",
+    "InventoryValidationMixin",
+    "ItemMixin",
+    "LivingEntityMixin",
+    "PlayerEntityInteractionHandlerMixin",
+    "PlayerEntityMixin",
+    "ScreenHandlerMixin",
+    "ServerPlayerInteractionManagerMixin",
+    "ServerPlayNetworkHandlerMixin",
+    "VehicleInventoryValidationMixin"
   ],
   "client": [
-    "ExampleMixin"
+    "ExampleMixin",
+    "client.ClientPlayerInteractionManagerMixin",
+    "client.GameRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

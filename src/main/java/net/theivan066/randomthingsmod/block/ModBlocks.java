@@ -57,7 +57,8 @@ public class ModBlocks {
     public static final Block TEST_STAIRS = registerBlock("test_stairs",
             new ModStairsBlock(ModBlocks.TEST_BLOCK.getDefaultState(),
                     FabricBlockSettings.create().strength(1f)));
-
+    public static final Block WATERPROOF_TNT = registerBlock("waterproof_tnt",
+            new WaterproofTntBlock(FabricBlockSettings.create().mapColor(MapColor.BRIGHT_RED).breakInstantly().sounds(BlockSoundGroup.GRASS).burnable()));
 
     public static final Block CANOPIC_JAR = registerBlock("canopic_jar",
             new CanopicJarBlock(FabricBlockSettings.create().strength(1f).nonOpaque()));
@@ -403,9 +404,23 @@ public class ModBlocks {
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
     public static final Block CHERRY_FENCE_GATE = registerBlock("cherry_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE), WoodType.CHERRY));
-    public static final Block CHERRY_SIGN = registerBlock("cherry_sign",
-            new SignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), WoodType.CHERRY));
 
+//    public static final Identifier CHERRY_SIGN_TEXTURE = new Identifier(RandomThingsMod.MOD_ID, "entity/signs/cherry");
+//    public static final Identifier CHERRY_HANGING_SIGN_TEXTURE = new Identifier(RandomThingsMod.MOD_ID, "entity/signs/hanging/cherry");
+//    public static final Identifier CHERRY_HANGING_GUI_SIGN_TEXTURE = new Identifier(RandomThingsMod.MOD_ID, "textures/gui/hanging_signs/cherry");
+//
+//    public static final Block STANDING_CHERRY_SIGN = Registry.register(Registries.BLOCK, new Identifier(RandomThingsMod.MOD_ID, "cherry_standing_sign"),
+//            new TerraformSignBlock(CHERRY_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_SIGN)));
+//    public static final Block WALL_CHERRY_SIGN = Registry.register(Registries.BLOCK, new Identifier(RandomThingsMod.MOD_ID, "cherry_wall_sign"),
+//            new TerraformWallSignBlock(CHERRY_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN)));
+//    public static final Block HANGING_CHERRY_SIGN = Registry.register(Registries.BLOCK, new Identifier(RandomThingsMod.MOD_ID, "cherry_hanging_sign"),
+//            new TerraformHangingSignBlock(CHERRY_HANGING_SIGN_TEXTURE, CHERRY_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN)));
+//    public static final Block WALL_HANGING_CHERRY_SIGN = Registry.register(Registries.BLOCK, new Identifier(RandomThingsMod.MOD_ID, "cherry_wall_hanging_sign"),
+//            new TerraformWallHangingSignBlock(CHERRY_HANGING_SIGN_TEXTURE, CHERRY_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN)));
+//
+//    public static final BlockFamily CHERRY_FAMILY = BlockFamilies.register(ModBlocks.CHERRY_PLANKS)
+//            .sign(ModBlocks.STANDING_CHERRY_SIGN, ModBlocks.WALL_CHERRY_SIGN)
+//            .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block CITRUS_LOG = registerBlock("citrus_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0f)));
@@ -947,7 +962,7 @@ public class ModBlocks {
     public static final Block HALITE = registerBlock("halite",
             new Block(FabricBlockSettings.create().strength(1.5f,6f)));
     public static final Block DEEPSLATE_HALITE = registerBlock("deepslate_halite",
-            new Block(FabricBlockSettings.create().strength(1.8f,7f)));
+            new Block(FabricBlockSettings.create().strength(1.8f,6f)));
 
 
     public static final Block GRAPE_VINE = registerBlockWithoutBlockItem("grape_vine",
@@ -1019,6 +1034,7 @@ public class ModBlocks {
     public static final Block PISTACHIO = registerBlockWithoutBlockItem("pistachio",
             new PistachioBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
+   ;
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

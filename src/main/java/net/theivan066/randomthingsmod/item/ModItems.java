@@ -1,7 +1,6 @@
 package net.theivan066.randomthingsmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -330,9 +329,9 @@ public class ModItems {
     public static final Item BAGEL = registerItem("bagel",
             new Item(new FabricItemSettings().food(ModFoodComponents.BAGEL)));
     public static final Item BAGUETTE = registerItem("baguette",
-            new Item(new FabricItemSettings().food(ModFoodComponents.BAGUETTE)));
+            new BaguetteItem(new FabricItemSettings().food(ModFoodComponents.BAGUETTE), 1, 1));
     public static final Item HUMONGOUS_BAGUETTE = registerItem("humongous_baguette",
-            new Item(new FabricItemSettings().food(ModFoodComponents.HUMONGOUS_BAGUETTE)));
+            new BaguetteItem(new FabricItemSettings().food(ModFoodComponents.HUMONGOUS_BAGUETTE), 2,2));
     public static final Item GARGANTUAN_BAGUETTE = registerItem("gargantuan_baguette",
             new Item(new FabricItemSettings().food(ModFoodComponents.GARGANTUAN_BAGUETTE)));
 
@@ -698,6 +697,25 @@ public static final Item BEEF_JERKY = registerItem("beef_jerky",
             new ModPickaxeItem(ModToolMaterials.COPPER, 1, -2.6f,
                     new FabricItemSettings()));
 
+    public static final Item EMERALD_SWORD = registerItem("emerald_sword",
+            new SwordItem(ModToolMaterials.EMERALD, 3, -2.2f,
+                    new FabricItemSettings()));
+    public static final Item EMERALD_AXE = registerItem("emerald_axe",
+            new ModAxeItem(ModToolMaterials.EMERALD, 6.0f, -2.9f,
+                    new FabricItemSettings()));
+    public static final Item EMERALD_HOE = registerItem("emerald_hoe",
+            new ModHoeItem(ModToolMaterials.EMERALD, -2, -0.8f,
+                    new FabricItemSettings()));
+    public static final Item EMERALD_SHOVEL = registerItem("emerald_shovel",
+            new ShovelItem(ModToolMaterials.EMERALD, 1.5f, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.EMERALD, 1, -2.6f,
+                    new FabricItemSettings()));
+
+    public static final Item IRON_SPEAR = registerItem("iron_spear",
+            new SpearItem(ToolMaterials.IRON, 1, -2.6f, new FabricItemSettings(), 2, 2));
+
     public static final Item PAN = registerItem("pan",
             new SwordItem(ToolMaterials.IRON, 2, 2f,
                     new FabricItemSettings()));
@@ -711,6 +729,11 @@ public static final Item BEEF_JERKY = registerItem("beef_jerky",
     public static final Item EMOTIONAL_STICK = registerItem("emotional_stick",
             new EmotionalStickItem(ToolMaterials.WOOD, 0, 5f,
                     new FabricItemSettings()));
+
+//    public static final Item CHERRY_SIGN = registerItem("cherry_sign",
+//            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.STANDING_CHERRY_SIGN, ModBlocks.WALL_CHERRY_SIGN));
+//    public static final Item HANGING_CHERRY_SIGN = registerItem("cherry_hanging_sign",
+//            new HangingSignItem(ModBlocks.HANGING_CHERRY_SIGN, ModBlocks.WALL_HANGING_CHERRY_SIGN, new FabricItemSettings().maxCount(16)));
 
     public static final Item MUMMY_SPAWN_EGG = registerItem("mummy_spawn_egg",
             new SpawnEggItem(ModEntities.MUMMY,0xf1c593, 0x918272,
@@ -726,12 +749,6 @@ public static final Item BEEF_JERKY = registerItem("beef_jerky",
                     new FabricItemSettings()));
     public static final Item TORA_SPAWN_EGG = registerItem("tora_spawn_egg",
             new SpawnEggItem(ModEntities.TORA,0xaccdff, 0x5a5c5b,
-                    new FabricItemSettings()));
-    public static final Item TIGER_SPAWN_EGG = registerItem("tiger_spawn_egg",
-            new SpawnEggItem(ModEntities.TIGER, 0xD57E36, 0x1D0D00,
-                    new FabricItemSettings()));
-    public static final Item KOUHA_SPAWN_EGG = registerItem("kouha_spawn_egg",
-            new SpawnEggItem(ModEntities.KOUHA, 0x332D3E, 0xBF6068,
                     new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:cherry_planks"
+  },
+  "result": "randomthingsmod:cherry_fence_gate",
+  "group": "cutting_fence_gates",
+  "count": 1
+}

@@ -1,27 +1,21 @@
 package net.theivan066.randomthingsmod.entity.client;
 
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
+import net.minecraft.client.render.entity.MobEntityRenderer;
 import net.minecraft.util.Identifier;
 import net.theivan066.randomthingsmod.RandomThingsMod;
 import net.theivan066.randomthingsmod.entity.custom.MummyEntity;
-import org.jetbrains.annotations.Nullable;
-import software.bernie.geckolib.renderer.GeoEntityRenderer;
 
-public class MummyRenderer extends GeoEntityRenderer<MummyEntity> {
-    public MummyRenderer(EntityRendererFactory.Context ctx) {
-        super(ctx, new MummyModel());
-        this.shadowRadius = 1f;
+public class MummyRenderer extends MobEntityRenderer<MummyEntity, MummyModel<MummyEntity>> {
+    private static final Identifier TEXTURE = new Identifier(RandomThingsMod.MOD_ID, "textures/entity/mummy.png");
+
+    public MummyRenderer(EntityRendererFactory.Context context) {
+        super(context, new MummyModel<>(context.getPart(ModModelLayers.MUMMY)), 0.5f);
     }
 
     @Override
-    public Identifier getTextureLocation(MummyEntity instance) {
-        return new Identifier(RandomThingsMod.MOD_ID, "textures/entity/mummy/mummy.png");
+    public Identifier getTexture(MummyEntity entity) {
+        return TEXTURE;
     }
 
-    @Override
-    public RenderLayer getRenderType(MummyEntity animatable, Identifier texture, @Nullable VertexConsumerProvider bufferSource, float partialTick) {
-        return super.getRenderType(animatable, texture, bufferSource, partialTick);
-    }
 }

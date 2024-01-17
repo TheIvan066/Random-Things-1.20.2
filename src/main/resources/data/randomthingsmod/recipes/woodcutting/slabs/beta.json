@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "randomthingsmod:beta_planks"
+  },
+  "result": "randomthingsmod:beta_slab",
+  "group": "cutting_slabs",
+  "count": 2
+}

@@ -1,5 +1,6 @@
 package net.theivan066.randomthingsmod.client;
 
+
 public class ScreenRenderer {
     public static void registerScreen() {
 
